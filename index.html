@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kemitraan Lengkap - PT BBL SAMPURNA</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            overflow-x: hidden;
+        }
+
+        .top-nav {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-weight: 800;
+            letter-spacing: 2px;
+            font-size: 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .header-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+        }
+
+        .header-img {
+            width: 100%;
+            max-width: 480px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 24px;
+            border: 6px solid white;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+
+        /* Section Alur Kerja Sama */
+        .workflow-section {
+            background-image: linear-gradient(rgba(30, 58, 138, 0.9), rgba(30, 58, 138, 0.9)), url('https://iili.io/BQiOWYl.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 80px 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .workflow-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 40px;
+            border-radius: 32px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .logo-bulat {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid white;
+            margin: -115px auto 20px;
+            display: block;
+            background: white;
+            box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+        }
+
+        .detail-card {
+            background: white;
+            border-radius: 24px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            height: 100%;
+            border-bottom: 4px solid #1e3a8a;
+        }
+
+        .float-wa {
+            position: fixed;
+            bottom: 25px;
+            left: 25px;
+            z-index: 999;
+            transition: transform 0.3s ease;
+        }
+
+        .float-wa:hover { transform: scale(1.1); }
+
+        .float-chat {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            z-index: 999;
+            background: #1e3a8a;
+            color: white;
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-weight: bold;
+            box-shadow: 0 10px 25px rgba(30, 58, 138, 0.4);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-nav">
+        PT BBL SAMPURNA
+    </div>
+
+    <div class="header-gallery">
+        <img src="https://cdn.phototourl.com/free/2026-05-05-0bcf1da8-f845-457f-8bd9-a2389c48e341.jpg" alt="[Imej Operasional PT BBL 1]" class="header-img">
+        <img src="https://cdn.phototourl.com/free/2026-05-05-54524bd2-2af1-4de6-9d64-4207bdedcf31.jpg" alt="[Imej Operasional PT BBL 2]" class="header-img">
+    </div>
+
+    <section class="workflow-section">
+        <div class="workflow-card">
+            <img src="https://iili.io/BQiOWYl.png" alt="[Logo Bulat PT BBL Sampurna]" class="logo-bulat">
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-12 uppercase tracking-tighter">Mekanisme Kemitraan</h2>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-white/10 p-6 rounded-2xl border border-white/20">
+                    <span class="text-4xl block mb-4">01</span>
+                    <h3 class="font-bold text-xl mb-3">Persiapan Lahan</h3>
+                    <p class="text-sm opacity-90">Mitra wajib menyediakan lahan atau lokasi keramba yang sesuai standar teknis budidaya lobster.</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-2xl border border-white/20">
+                    <span class="text-4xl block mb-4">02</span>
+                    <h3 class="font-bold text-xl mb-3">Penyaluran BBL</h3>
+                    <p class="text-sm opacity-90">PT BBL Sampurna menyalurkan benih bening lobster unggulan dengan legalitas resmi pemerintah.</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-2xl border border-white/20">
+                    <span class="text-4xl block mb-4">03</span>
+                    <h3 class="font-bold text-xl mb-3">Panen & Pemasaran</h3>
+                    <p class="text-sm opacity-90">Hasil panen dijamin akan dibeli kembali oleh perusahaan dengan harga pasar yang kompetitif.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keterangan Lengkap Hasil Ekstraksi -->
+    <main class="container mx-auto px-4 py-16">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-blue-900 mb-4">Rincian Program Kerja Sama</h2>
+            <div class="h-1 w-24 bg-blue-600 mx-auto"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Poin 1 -->
+            <div class="detail-card">
+                <h4 class="text-blue-900 font-extrabold text-lg mb-4">SYARAT ADMINISTRASI</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Setiap mitra wajib melampirkan identitas diri (KTP), Surat Keterangan Usaha, dan bersedia mengikuti bimbingan teknis yang diselenggarakan oleh tim ahli kami.
+                </p>
+            </div>
+            <!-- Poin 2 -->
+            <div class="detail-card">
+                <h4 class="text-blue-900 font-extrabold text-lg mb-4">HAK MITRA</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Mitra berhak mendapatkan suplai pakan berkualitas, obat-obatan budidaya, serta pendampingan langsung di lapangan jika terjadi kendala teknis pada bibit.
+                </p>
+            </div>
+            <!-- Poin 3 -->
+            <div class="detail-card">
+                <h4 class="text-blue-900 font-extrabold text-lg mb-4">SISTEM BAGI HASIL</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Menggunakan skema transparan dengan pembagian profit yang adil setelah dikurangi biaya operasional bibit dan pakan, memastikan keberlanjutan ekonomi nelayan.
+                </p>
+            </div>
+            <!-- Poin 4 -->
+            <div class="detail-card">
+                <h4 class="text-blue-900 font-extrabold text-lg mb-4">JAMINAN LEGALITAS</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Seluruh Benih Bening Lobster (BBL) yang kami salurkan memiliki surat izin tangkap dan izin edar resmi, menjamin mitra aman dari risiko hukum.
+                </p>
+            </div>
+            <!-- Poin 5 -->
+            <div class="detail-card">
+                <h4 class="text-blue-900 font-extrabold text-lg mb-4">MANAJEMEN RISIKO</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Kami memberikan edukasi mengenai mitigasi penyakit dan perubahan suhu air guna meminimalisir tingkat kematian (mortality rate) pada benih lobster.
+                </p>
+            </div>
+            <!-- Poin 6 -->
+            <div class="detail-card">
+                <h4 class="text-blue-900 font-extrabold text-lg mb-4">DUKUNGAN LOGISTIK</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Armada transportasi khusus oksigen kami siap mengirimkan bibit hingga ke pelosok pesisir Indonesia untuk menjaga kesegaran bibit saat tiba di lokasi.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- CTA Section -->
+    <div class="bg-blue-900 py-16 text-white text-center">
+        <h2 class="text-3xl font-bold mb-6">Siap Menjadi Bagian dari Kemajuan Ekonomi Maritim?</h2>
+        <p class="mb-10 opacity-80 px-4">Bergabunglah dengan ratusan pembudidaya sukses lainnya bersama PT BBL SAMPURNA.</p>
+        <a href="https://wa.me/6283140066147" class="bg-white text-blue-900 font-bold py-4 px-10 rounded-xl hover:bg-gray-100 transition-all">DAFTAR SEKARANG</a>
+    </div>
+
+    <a href="https://wa.me/6283140066147" class="float-wa" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="[Ikon WhatsApp]" width="60" height="60">
+    </a>
+
+    <a href="https://direct.lc.chat/19699410" class="float-chat" target="_blank">
+        <span>💬 Chat Admin</span>
+    </a>
+
+    <footer class="bg-gray-200 py-10 text-center text-sm text-gray-600">
+        <p class="font-bold text-blue-900 mb-2">PT BBL SAMPURNA</p>
+        <p>&copy; 2024 Indonesia. Seluruh hak cipta dilindungi.</p>
+    </footer>
+
+    <!-- Skrip Keamanan Internal Aman -->
+    <script>
+        // Sanitasi Input Sederhana
+        document.querySelectorAll('input, textarea').forEach(element => {
+            element.addEventListener('input', (e) => {
+                const cleanValue = e.target.value.replace(/[<>]/g, '');
+                if (e.target.value !== cleanValue) { e.target.value = cleanValue; }
+            });
+        });
+        
+        // Monitoring perubahan DOM (opsional/pasif)
+        const observer = new MutationObserver((mutations) => {
+            // Pasif monitoring
+        });
+        observer.observe(document.body, { childList: true, subtree: true });
+        
+        console.log("%cKeamanan PT BBL Sampurna Aktif", "color: blue; font-weight: bold;");
+    </script>
+
+    <!-- LiveChat -->
+    <script>
+        window.__lc = window.__lc || {};
+        window.__lc.license = 19699410;
+        ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChat] Widget is not yet initialized");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChat=n.LiveChat||e}(window,document,[].slice))
+    </script>
+</body>
+</html>
